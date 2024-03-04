@@ -1,0 +1,40 @@
+# Book Filtering Website
+
+![Book Filtering Website](<readme images/website img.png>)
+
+This is a simple website for browsing and filtering books based on different genres.
+
+## Features:
+
+- **Navigation Bar**: Displays the logo and website title along with navigation links.
+- **Filter Buttons**: Allows users to filter books by genre (e.g., fiction, non-fiction, science fiction).
+- **Book Grid**: Presents books in a grid layout, each containing an image, title, price, and buttons for ordering and adding to the cart.
+- **Filtering Functionality**: Users can click on filter buttons to display books based on the selected genre.
+
+## Live Preview:
+
+You can view the live version of the website [here](https://webdev-ms.github.io/webpage-filter/).
+
+## Technologies Used:
+
+- HTML
+- CSS
+- JavaScript
+
+## How to Use:
+
+1. Clone the repository or download the ZIP file.
+2. Open the `index.html` file in a web browser.
+
+## Credits:
+
+- Images: Placeholder images are used for book covers.
+- Logo: Placeholder logo is used for the website.
+
+## Contributing:
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License:
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

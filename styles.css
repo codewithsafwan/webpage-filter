@@ -1,0 +1,162 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 255);
+}
+
+/* Navigation bar */
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: gray;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+
+/* Logo and website title */
+.logo-name {
+    display: flex;
+}
+
+/* Logo image */
+.logo-img img {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+/* Title styling */
+.nav-title h2 a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    position: relative;
+    left: 30%; /* Adjust as needed */
+}
+
+/* Hamburger menu */
+.hamburgerMenu {
+    display: none;
+}
+
+/* Navigation links */
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px 13px 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+/* Link hover effect */
+.links a:hover {
+    color: orange;
+    transform: translateX(100%) scale(11.5rem);
+}
+
+/* Filter buttons */
+.filter {
+    height: 50px;
+    text-align: center;
+    background-color: #f4fde3;
+    padding-top: 10px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: 1px solid black;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.filter-btn.active {
+    background-color: #000000;
+    color: white;
+}
+
+/* Book grid */
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    border: 2px solid black;
+}
+
+/* Individual book */
+.book {
+    border: 2px solid black;
+}
+
+/* Book image */
+.book img {
+    width: 100%;
+    height: 50vh;
+    display: block;
+    aspect-ratio: 3/2;
+}
+
+/* Book details */
+.book-details {
+    padding: 10px;
+}
+
+/* Book title */
+.book-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Book price */
+.book-price {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Order button */
+.order-btn {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #45a049;
+}
+
+/* Cart button */
+.cart-btn {
+    position: relative;
+    left: 50px; /* Adjust as needed */
+    border: 1px solid black;
+    background-color: orange;
+    padding: 5px 5px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
