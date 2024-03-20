@@ -13,7 +13,7 @@ This is a simple website for browsing and filtering books based on different gen
 
 ## Live Preview:
 
-You can view the live version of the website [here](https://webdev-ms.github.io/webpage-filter/).
+You can view the live version of the website [https://codewithsafwan.github.io/webpage-filter/](https://codewithsafwan.github.io/webpage-filter/).
 
 ## Technologies Used:
 
